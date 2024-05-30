@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="cabecalho">
+        <header>
+            <h1>Meu Site</h1>
+            <nav>
+                <ul>
+                    <li class="pg_inicial"><a href="#">Página Inicial</a></li>
+                    <li class="Sobre"><a href="#">Sobre</a></li>
+                    <li class="contato"><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="formulario">
+    <main>
+        <h2>Formulário de Contato</h2>
+        <br>
+        <form id="myForm" action="resultado.html" method="get">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" cols="35" rows="3" required></textarea>
+            <br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Meu Site - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
